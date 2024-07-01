@@ -1,5 +1,5 @@
 {
-  "name": "@frevo/api-reference-react",
+  "name": "@frevohq/api-reference-react",
   "version": "0.0.0-alpha.1",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",

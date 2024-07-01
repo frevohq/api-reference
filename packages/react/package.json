@@ -1,6 +1,6 @@
 {
   "name": "@frevo/api-reference-react",
-  "version": "0.0.0",
+  "version": "0.0.0-alpha.1",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "private": false,
@@ -15,7 +15,9 @@
     "dist"
   ],
   "repository": {
-    "url": "https://github.com/frevohq/api-reference"
+    "type": "git",
+    "url": "https://github.com/frevohq/api-reference.git",
+    "directory": "packages/react"
   },
   "scripts": {
     "build": "vite build",

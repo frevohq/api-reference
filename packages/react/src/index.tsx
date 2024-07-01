@@ -1,3 +1,3 @@
 export const Frevo = () => {
-  return <p>frevo</p>
+  return <p>Frevo</p>
 }

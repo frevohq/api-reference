@@ -21,6 +21,8 @@ jobs:
       - run: git stash
       - uses: changesets/action@v1
         with:
+          commit: "chore: update versions"
+          title: "chore: update versions"
           publish: 'pnpm -r publish --access public'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
